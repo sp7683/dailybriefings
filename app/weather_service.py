@@ -15,7 +15,7 @@ from app import APP_ENV
 load_dotenv()
 
 COUNTRY_CODE = os.getenv("COUNTRY_CODE", default="US")
-ZIP_CODE = os.getenv("ZIP_CODE", default="20057")
+ZIP_CODE = os.getenv("ZIP_CODE", default="07093")
 
 DEGREE_SIGN = u"\N{DEGREE SIGN}"
 

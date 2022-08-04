@@ -53,7 +53,7 @@ Printing today's weather forecast (to test the Weather.gov API):
 python -m app.weather_service
 
 # in production mode:
-APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.weather_service
+APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="07093" python -m app.weather_service
 ```
 
 Sending an example email (to test the SendGrid service):
