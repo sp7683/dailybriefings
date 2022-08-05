@@ -4,19 +4,30 @@
 
     <h2>Weather Form</h2>
 
-    <p>Request an hourly forecast for your zip code...</p>
+    <p>Request an hourly forecast for your zip code.</p>
 
     <form action="/weather/forecast" method="POST">
 
-        <label>Country Code:</label>
+        <label><b>Country Code:</b></label>
+        <br>
+        <br>
         <input type="text" name="country_code" placeholder="US" value="US">
         <br>
-
-        <label>Zip Code:</label>
-        <input type="text" name="zip_code" placeholder="20057" value="20057">
+        <br>
+        <label><b>Zip Code:</b></label>
+        <br>
+        <br>
+        <input type="radio" id="16803" name="zip_code" value="16803">
+        <label for="html">16803</label><br>
+        <input type="radio" id="07093" name="zip_code" value="07093">
+        <label for="html">07093</label><br>
+        <input type="radio" id="27513" name="zip_code" value="27513">
+        <label for="html">27513</label><br>
+        <br>
+        
         <br>
 
-        <button>Submit</button>
+        <input type="submit" value="Show Me Da Money">
     </form>
 
 {% endblock %}
